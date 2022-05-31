@@ -5,7 +5,7 @@ wejście: [2,3,7,4,9], 10
 wyjście: [1,5,6,8,10]"""
 
 
-def missing_elements(table: [int], size: int) -> list:
+def missing_elements(table: list[int], size: int) -> list[int] | None:
     for i in table:
         if type(i) != int:
             return None
